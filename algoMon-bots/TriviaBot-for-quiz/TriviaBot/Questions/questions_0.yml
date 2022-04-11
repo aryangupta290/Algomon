@@ -1,0 +1,24 @@
+# Category 0 - Greedy
+---
+questions:
+- question: "Which of the following compression algorithms is used to generate a .png?"
+  difficulty: "medium"
+  correct_answer: "Deflate"
+  incorrect_answers:
+  - "LZ78"
+  - "Huffman"
+  - "LZW"
+- question: "What is the time complexity of Huffman Coding?"
+  difficulty: "medium"
+  correct_answer: "O(NlogN)"
+  incorrect_answers:
+  - "O(N)"
+  - "O(N(logN)²)"
+  - "O(N²)"
+- question: "Which of the following is true about Huffman Coding?"
+  difficulty: "medium"
+  correct_answer: "no prefix"
+  incorrect_answers:
+  - "lossy"
+  - "not optimal"
+  - "O(N²)"

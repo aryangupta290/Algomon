@@ -1,0 +1,66 @@
+# Category 0 - Greedy
+---
+questions:
+- question: "What happens when the backtracking algorithm reaches a complete solution?"
+  difficulty: "medium"
+  correct_answer: "It continues searching for other possible solutions"
+  incorrect_answers:
+  - "It backtracks to the root"
+  - "It traverses from a different route"
+  - "Recursively traverses through the same route"
+- question: "#include <stdio.h>
+
+int fun(int n)
+{
+    if (n == 4)
+       return n;
+    else return 2*fun(n+1);
+}
+
+
+int main()
+{
+   printf(fun(2));
+   return 0;
+}
+"
+  difficulty: "medium"
+  correct_answer: "16"
+  incorrect_answers:
+  - "8"
+  - "4"
+  - "1"
+- question: "Consider the following C function.
+int fun (int n)
+{
+  int x=1, k;
+  if (n==1) return x;
+  for (k=1; k < n; ++k)
+     x = x + fun(k) * fun(n – k);
+  return x;
+}"
+  difficulty: "medium"
+  correct_answer: "51"
+  incorrect_answers:
+  - "26"
+  - "0"
+  - "71"
+- question: "Assuming that arbitrarily large integers can be passed as a parameter to the function, consider the following statements.
+1. The function f terminates for finitely many different values of n ≥ 1.
+ii. The function f terminates for infinitely many different values of n ≥ 1.
+iii. The function f does not terminate for finitely many different values of n ≥ 1.
+iv. The function f does not terminate for infinitely many different values of n ≥ 1.
+Which one of the following options is true of the above?"
+  difficulty: "medium"
+  correct_answer: "ii and iv"
+  incorrect_answers:
+  - i and iii"
+  - "i and iv"
+  - "ii and iii"
+- question: "What happens when a top-down approach of dynamic programming is applied to any problem?"
+  difficulty: "medium"
+  correct_answer: "It increases the space complexity and decreases the time complexity."
+  incorrect_answers:
+  - "It increases the time complexity and decreases the space complexity"
+  - "It decreases both, the time complexity and the space complexity"
+  - "It increases both, the time complexity and the space complexity"

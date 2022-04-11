@@ -1,0 +1,38 @@
+# Category 0 - Greedy
+---
+questions:
+- question: "Which of the following algorithms is NOT a divide & conquer algorithm by nature?"
+  difficulty: "medium"
+  correct_answer: "Heap Sort"
+  incorrect_answers:
+  - "Euclidean algorithm to compute the greatest common divisor"
+  - "Cooley-Tukey fast Fourier transform"
+  - "Quick Sort"
+- question: "Consider the polynomial p(x) = a0 + a1x + a2x^2 +a3x^3, where ai != 0, for all i. The minimum number of multiplications needed to evaluate p on an input x is:"
+  difficulty: "medium"
+  correct_answer: "3"
+  incorrect_answers:
+  - "9"
+  - "4"
+  - "6"
+- question: "Maximum Subarray Sum problem is to find the subarray with maximum sum. For example, given an array {12, -13, -5, 25, -20, 30, 10}, the maximum subarray sum is 45. The naive solution for this problem is to calculate sum of all subarrays starting with every element and return the maximum of all. We can solve this using Divide and Conquer, what will be the worst case time complexity using Divide and Conquer."
+  difficulty: "medium"
+  correct_answer: "O(nlogn)"
+  incorrect_answers:
+  - "O(n^2)"
+  - "O(logn)"
+  - "O(n)"
+- question: "Consider the problem of computing min-max in an unsorted array where min and max are minimum and maximum elements of array. Algorithm A1 can compute min-max in a1 comparisons without divide and conquer. Algorithm A2 can compute min-max in a2 comparisons by scanning the array linearly. What could be the relation between a1 and a2 considering the worst case scenarios?"
+  difficulty: "medium"
+  correct_answer: "a1 > a2"
+  incorrect_answers:
+  - "a1 < a2"
+  - "a1 = a2"
+  - "Depends on the input"
+- question: "A binary search tree T contains n distinct elements. What is the time complexity of picking an element in T that is smaller than the maximum element in T?"
+  difficulty: "medium"
+  correct_answer: "O(1)"
+  incorrect_answers:
+  - "O(logn)"
+  - "O(n)"
+  - "O(nlogn)"

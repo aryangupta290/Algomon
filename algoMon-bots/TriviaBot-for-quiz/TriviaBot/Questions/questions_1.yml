@@ -1,0 +1,38 @@
+# Category 0 - Greedy
+---
+questions:
+- question: "Which of the following standard algorithms is not Dynamic Programming based."
+  difficulty: "medium"
+  correct_answer: "Prim's MST"
+  incorrect_answers:
+  - "Floyd Warshall Algorithm"
+  - "0-1 Knapsack problem"
+  - "Bellman-Ford Algorithm"
+- question: "Consider two strings A = **qpqrr** and B = **pqprqrp**. Let x be the length of the longest common subsequence (not necessarily contiguous) between A and B and let y be the number of such longest common subsequences between A and B. Then x + 10y = ___. (Do write your own code for this problem)"
+  difficulty: "medium"
+  correct_answer: "34"
+  incorrect_answers:
+  - "23"
+  - "43"
+  - "33"
+- question: "Let A1, A2, A3, and A4 be four matrices of dimensions 10 x 5, 5 x 20, 20 x 10, and 10 x 5, respectively. The minimum number of scalar multiplications required to find the product A1A2A3A4 using the basic matrix multiplication method is"
+  difficulty: "medium"
+  correct_answer: "1500"
+  incorrect_answers:
+  - "500"
+  - "2000"
+  - "100"
+- question: "Consider a sequence F00 defined as : F00(0) = 1, F00(1) = 1 F00(n) = 10 ∗ F00(n – 1) + 100 F00(n – 2) for n ≥ 2 Then what shall be the set of values of the sequence F00 ?"
+  difficulty: "medium"
+  correct_answer: "(1,110,1200)"
+  incorrect_answers:
+  - "(1,110,600,1200)"
+  - "(1,2,55,110,600,1200)"
+  - "(1,55,110,600,1200)"
+- question: "What happens when a top-down approach of dynamic programming is applied to any problem?"
+  difficulty: "medium"
+  correct_answer: "It increases the space complexity and decreases the time complexity."
+  incorrect_answers:
+  - "It increases the time complexity and decreases the space complexity"
+  - "It decreases both, the time complexity and the space complexity"
+  - "It increases both, the time complexity and the space complexity"

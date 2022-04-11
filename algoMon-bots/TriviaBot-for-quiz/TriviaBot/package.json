@@ -1,0 +1,34 @@
+{
+  "name": "discord-trivia-bot",
+  "version": "1.8.4",
+  "description": "Play trivia in Discord! Featuring three modes of play and 24 categories, including Anime & Manga, Video Games, Sports, Science, and more.",
+  "main": "index.js",
+  "isGitBuild": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakeYS/Discord-Trivia-Bot.git"
+  },
+  "author": "Lake Y",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LakeYS/Discord-Trivia-Bot/issues",
+    "email": "contact@lakeys.net"
+  },
+  "homepage": "http://lakeys.net/triviabot",
+  "dependencies": {
+    "circular-json": "^0.5.9",
+    "discord.js": "^13.1.0",
+    "html-entities": "^1.4.0",
+    "https": "^1.0.0",
+    "js-yaml": "^3.14.1",
+    "node-fetch": "^2.6.1",
+    "semver-compare": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  }
+}

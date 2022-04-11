@@ -1,0 +1,47 @@
+# Category 0 - Greedy
+---
+questions:
+- question: "Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph? 1. In adjacency list representation, space is saved for sparse graphs. 2.Adding a vertex in adjacency list representation is easier than adjacency matrix representation."
+  difficulty: "medium"
+  correct_answer: "All of the above"
+  incorrect_answers:
+  - "1"
+  - "2"
+  - "none"
+- question: "The most efficient algorithm for finding the number of connected components in an undirected graph on n vertices and m edges has time complexity."
+  difficulty: "medium"
+  correct_answer: "theta(m+n)"
+  incorrect_answers:
+  - "theta(n)"
+  - "theta(m)"
+  - "theta(mn)"
+- question: "What is the pseudo code to compute the shortest path in Dijkstra’s algorithm?
+1. if(!T[w].Known)
+ 	if(T[v].Dist + C(v,w) < T[w].Dist)  {
+                 Decrease(T[w].Dist to T[v].Dist +C(v,w));
+                T[w].path=v; }
+2. if(T[w].Known)
+ 	if(T[v].Dist + C(v,w) < T[w].Dist)  {
+                 Increase (T[w].Dist to T[v].Dist +C(v,w));
+                T[w].path=v; }
+3. if(!T[w].Known)
+ 	if(T[v].Dist + C(v,w) > T[w].Dist)  {
+                 Decrease(T[w].Dist to T[v].Dist +C(v,w);
+                  T[w].path=v; }
+4. if(T[w].Known)
+ 	if(T[v].Dist + C(v,w) < T[w].Dist)  {
+                 Increase(T[w].Dist to T[v].Dist);
+                T[w].path=v; }"
+  difficulty: "medium"
+  correct_answer: "1"
+  incorrect_answers:
+  - "2"
+  - "3"
+  - "4"
+- question: "Consider an undirected unweighted graph G. Let a breadth-first traversal of G be done starting from a node r. Let d(r, u) and d(r, v) be the lengths of the shortest paths from r to u and v respectively, in G. lf u is visited before v during the breadth-first traversal, which of the following statements is correct?"
+  difficulty: "medium"
+  correct_answer: "d(r, u) <= d (r, v)"
+  incorrect_answers:
+  - "d(r, u) < d (r, v)"
+  - "d(r, u) > d(r, v)"
+  - "None of the above"

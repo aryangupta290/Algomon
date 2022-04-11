@@ -1,0 +1,70 @@
+
+---
+questions:
+- question: "Consider a situation where swap operation is very costly. Which of the following sorting algorithms should be preferred so that the number of swap operations are minimized in general?"
+  difficulty: "medium"
+  correct_answer: "Selection Sort"
+  incorrect_answers:
+  - "Insertion Sort"
+  - "Merge Sort"
+  - "Heap Sort"
+- question: "Which of the following is not true about comparison based sorting algorithms?
+1. Any comparison based sorting algorithm can be made stable by using position as a criteria when two elements are compared
+2. Counting Sort is not a comparison based sorting algorithm
+3. The minimum possible time complexity of a comparison based sorting algorithm is O(nLogn) for a random input array
+4. Heap Sort is not a comparison based sorting algorithm."
+  difficulty: "medium"
+  correct_answer: "4."
+  incorrect_answers:
+  - "1"
+  - "2"
+  - "3"
+- question: "Suppose we are sorting an array of eight integers using heapsort, and we have just finished some heapify (either maxheapify or minheapify) operations. The array now looks like this: 16 14 15 10 12 27 28 How many heapify operations have been performed on root of heap?"
+  difficulty: "medium"
+  correct_answer: "2"
+  incorrect_answers:
+  - "1"
+  - "3 or 4"
+  - "5 or 6"
+- question: "What is the output of following program?
+#include <stdio.h>
+
+void print(int n, int j)
+{
+   if (j >= n)
+      return;
+   if (n-j > 0 && n-j >= j)
+       print(j, n-j);
+   print(n, j+1);
+}
+
+int main()
+{
+    int n = 8;
+    print(n, 1);
+}"
+  difficulty: "medium"
+  correct_answer: "1 7
+2 6
+3 5
+4 4"
+  incorrect_answers:
+  - "1 7
+2 6
+3 5
+4 4
+4 4"
+  - "1 7
+2 6
+3 5"
+  - "1 2
+3 4
+5 6
+7 8"
+- question: "Given a sorted array of integers, what can be the minimum worst case time complexity to find ceiling of a number x in given array? Ceiling of an element x is the smallest element present in array which is greater than or equal to x. Ceiling is not present if x is greater than the maximum element present in array. For example, if the given array is {12, 67, 90, 100, 300, 399} and x = 95, then output should be 100."
+  difficulty: "medium"
+  correct_answer: "O(Logn)"
+  incorrect_answers:
+  - "O(Logn * Logn)"
+  - "O(n)"
+  - "O(LogLogn)"
